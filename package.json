@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,35 @@
     "url": "https://github.com/shtakai/cd_js2_oop_jslib/issues"
   },
   "homepage": "https://github.com/shtakai/cd_js2_oop_jslib#readme",
-  "dependencies": {
-    "underscore": "^1.8.3"
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "chai": "^3.5.0",
+    "del": "^2.2.1",
+    "dtsm": "^1.1.0",
+    "expect": "^1.20.2",
+    "glob": "^7.0.5",
+    "graceful-fs": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-espower": "^1.0.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-stylus": "^2.5.0",
+    "gulp-util": "^3.0.7",
+    "gutil": "^1.6.4",
+    "intelli-espower-loader": "^1.0.1",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "mocha": "^2.5.3",
+    "mocha-sinon": "^1.1.5",
+    "power-assert": "^1.4.1",
+    "pug": "^2.0.0-beta3",
+    "sinon": "^1.17.4"
   }
 }
